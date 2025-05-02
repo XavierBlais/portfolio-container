@@ -42,8 +42,6 @@ The portfolio consists of the following pages:
 - **GitHub**  Version control and project hosting
 
 ##  How to Build and Run Locally
-
-1. Clone the repo:
  ```bash
 # 1. Clone the repo
 git clone https://github.com/XavierBlais/portfolio-container.git
@@ -56,5 +54,5 @@ docker build -t my-portfolio .
 docker run --rm -d -p <YOUR PORT>:80 my-portfolio
 
 # 4. Open in your browser
-#  curl localhost:<YOUR_PORT> 
+curl localhost:<YOUR_PORT> 
 ```
