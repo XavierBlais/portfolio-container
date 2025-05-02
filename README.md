@@ -44,6 +44,6 @@ The portfolio consists of the following pages:
 ##  How to Build and Run Locally
 
 1. Clone the repo:
-   bash
+   ```bash
    git clone https://github.com/XavierBlais/portfolio-container.git
    cd portfolio-container
