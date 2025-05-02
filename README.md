@@ -49,6 +49,8 @@ cd portfolio-container
 
 # 2. Build the Docker image
 docker build -t my-portfolio .
+# Select
+docker.io/library/nginx:alpine
 
 # 3. Run the container locally
 docker run --rm -d -p <YOUR PORT>:80 my-portfolio
