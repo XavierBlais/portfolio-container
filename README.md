@@ -13,7 +13,7 @@ http://20.124.68.199
 The portfolio consists of the following pages:
 - **Home**  Brief intro and headshot
 - **About**  Bio, background, technical skills, and hobbies
-- **Projects**  Highlights of selected work including MoodMeal and Binary Bomb Lab
+- **Projects**  Highlights of selected work thats relevant to skillset
 - **Resume**  Downloadable resume and list of courses taken
 - **Contact**  Links to email, GitHub, and LinkedIn
 
