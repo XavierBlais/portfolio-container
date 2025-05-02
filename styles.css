@@ -1,0 +1,160 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Base styles */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout wrapper for consistent spacing */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #800000;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Horizontal list of nav links */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;  /* This controls spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+/* Horizontal list of nav links */
+nav li {
+  display: inline;
+}
+
+/* Link appearance */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+/* Link appearance */
+nav a:hover {
+  color: #8c52ff;
+  text-decoration: underline;
+}
+
+
+/* Headings text styling */
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Centered circular headshot */
+.headshot {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;
+  object-position: center top; /* adjust face alignment */
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Resume button */
+a.button, a.download-link {
+  background-color: #8c52ff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+a.button:hover, a.download-link:hover {
+  background-color: #6f3fe0;
+}
+
+/* Project list */
+ul {
+  padding-left: 1.25rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* coursework table styling */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+.course-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+/* side by side photo using flex styling (about me section) */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap; 
+}
+
+.about-photo {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* vt logo styling */
+.vt-logo {
+  display: block;
+  max-width: 120px;
+  height: auto;
+  margin: 2rem auto 1rem auto;
+}
+
+
+
+
