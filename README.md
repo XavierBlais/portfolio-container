@@ -11,11 +11,11 @@ http://20.124.68.199
 ## Site Navigation
 
 The portfolio consists of the following pages:
-- **Home** – Brief intro and headshot
-- **About** – Bio, background, technical skills, and hobbies
-- **Projects** – Highlights of selected work including MoodMeal and Binary Bomb Lab
-- **Resume** – Downloadable resume and list of courses taken
-- **Contact** – Links to email, GitHub, and LinkedIn
+- **Home**  Brief intro and headshot
+- **About**  Bio, background, technical skills, and hobbies
+- **Projects**  Highlights of selected work including MoodMeal and Binary Bomb Lab
+- **Resume**  Downloadable resume and list of courses taken
+- **Contact**  Links to email, GitHub, and LinkedIn
 
 ## File Overview
 
@@ -36,14 +36,25 @@ The portfolio consists of the following pages:
 
 ## Technologies Used
 
-- **HTML/CSS/JavaScript** – Front-end site structure and styling  
-- **Docker** – Containerization for consistent deployment  
-- **Azure Container Instances** – Cloud hosting of the site  
-- **GitHub** – Version control and project hosting
+- **HTML/CSS/JavaScript**  Front-end site structure and styling  
+- **Docker**  Containerization for consistent deployment  
+- **Azure Container Instances**  Cloud hosting of the site  
+- **GitHub**  Version control and project hosting
 
 ##  How to Build and Run Locally
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/XavierBlais/portfolio-container.git
-   cd portfolio-container
+ ```bash
+# 1. Clone the repo
+git clone https://github.com/XavierBlais/portfolio-container.git
+cd portfolio-container
+
+# 2. Build the Docker image
+docker build -t my-portfolio .
+
+# 3. Run the container locally
+docker run --rm -d -p <YOUR PORT>:80 my-portfolio
+
+# 4. Open in your browser
+#  curl localhost:<YOUR_PORT> 
+```
