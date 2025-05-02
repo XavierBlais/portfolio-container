@@ -34,7 +34,7 @@ The portfolio consists of the following pages:
 | `vt-logo.png`       | Virginia Tech logo image                                |
 | `rugby.jpg`, `rugby2.jpg` | Hobby photos for About Me section               |
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML/CSS/JavaScript** – Front-end site structure and styling  
 - **Docker** – Containerization for consistent deployment  
